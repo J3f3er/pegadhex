@@ -1,0 +1,316 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|c:\\users\\user\\source\\repos\\pegadhex\\pegadhexapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\factura.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:factura.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\agregarproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:agregarproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\agregarproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:agregarproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\historialchofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:historialchofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\agregarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:agregarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\agregarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:agregarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\historialchofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:historialchofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\agregarchofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:agregarchofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\agregarchofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:agregarchofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\Factura.cs",
+              "RelativeDocumentMoniker": "Factura.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\Factura.cs",
+              "RelativeToolTip": "Factura.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAhwB0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:04:46.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AgregarProveedores.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarProveedores.cs",
+              "RelativeDocumentMoniker": "AgregarProveedores.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarProveedores.cs",
+              "RelativeToolTip": "AgregarProveedores.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAqwBEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:37:55.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Factura.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\Factura.cs",
+              "RelativeDocumentMoniker": "Factura.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\Factura.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Factura.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T18:44:00.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\MainForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MainForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:18:56.104Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAlwEwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:48:00.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AgregarProveedores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarProveedores.cs",
+              "RelativeDocumentMoniker": "AgregarProveedores.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarProveedores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AgregarProveedores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:17:24.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Factura.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\Factura.Designer.cs",
+              "RelativeDocumentMoniker": "Factura.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\Factura.Designer.cs",
+              "RelativeToolTip": "Factura.Designer.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAtwHcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:05:41.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "historialChofer.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\historialChofer.cs",
+              "RelativeDocumentMoniker": "historialChofer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\historialChofer.cs [Dise\u00F1o]",
+              "RelativeToolTip": "historialChofer.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:49:22.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AgregarClientes.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarClientes.cs",
+              "RelativeDocumentMoniker": "AgregarClientes.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarClientes.cs",
+              "RelativeToolTip": "AgregarClientes.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAlwHEAAACVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T18:05:45.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AgregarClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarClientes.cs",
+              "RelativeDocumentMoniker": "AgregarClientes.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarClientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AgregarClientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T17:41:47.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "historialChofer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\historialChofer.cs",
+              "RelativeDocumentMoniker": "historialChofer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\historialChofer.cs",
+              "RelativeToolTip": "historialChofer.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAWwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:19:56.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AgregarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarUsuario.cs",
+              "RelativeDocumentMoniker": "AgregarUsuario.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarUsuario.cs",
+              "RelativeToolTip": "AgregarUsuario.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAtwFkAAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:50:02.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AgregarUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarUsuario.cs",
+              "RelativeDocumentMoniker": "AgregarUsuario.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AgregarUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:23:38.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "formLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\formLogin.cs",
+              "RelativeDocumentMoniker": "formLogin.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\formLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "formLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:37:49.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:57:38.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AgregarChofer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarChofer.cs",
+              "RelativeDocumentMoniker": "AgregarChofer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarChofer.cs",
+              "RelativeToolTip": "AgregarChofer.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAtwEgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:55:39.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AgregarChofer.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarChofer.cs",
+              "RelativeDocumentMoniker": "AgregarChofer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarChofer.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AgregarChofer.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:27:05.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "formLogin.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\formLogin.cs",
+              "RelativeDocumentMoniker": "formLogin.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\formLogin.cs",
+              "RelativeToolTip": "formLogin.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:51:41.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAtwCQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T11:41:54.619Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
