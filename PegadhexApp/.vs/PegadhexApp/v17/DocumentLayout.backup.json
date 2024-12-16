@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|c:\\users\\user\\source\\repos\\pegadhex\\pegadhexapp\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|c:\\users\\user\\source\\repos\\pegadhex\\pegadhexapp\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|c:\\users\\user\\source\\repos\\pegadhex\\pegadhexapp\\agregarchofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\agregarchofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66D6B15B-8004-48D5-8CF1-065D5B37EA5B}|PegadhexApp.csproj|solutionrelative:agregarchofer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -92,7 +92,7 @@
               "RelativeDocumentMoniker": "AgregarUsuario.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarUsuario.cs",
               "RelativeToolTip": "AgregarUsuario.cs",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAowMsAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwDoAAACKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T13:02:28.873Z",
               "EditorCaption": ""
@@ -106,8 +106,7 @@
               "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\MainForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "MainForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:18:56.104Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-10T12:18:56.104Z"
             },
             {
               "$type": "Document",
@@ -119,8 +118,7 @@
               "RelativeToolTip": "AgregarChofer.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAmwC4AAAD0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:55:39.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:55:39.034Z"
             },
             {
               "$type": "Document",
@@ -132,8 +130,7 @@
               "RelativeToolTip": "MainForm.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAtwEMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:48:00.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T12:48:00.276Z"
             },
             {
               "$type": "Document",
@@ -156,8 +153,7 @@
               "ToolTip": "C:\\Users\\User\\source\\repos\\Pegadhex\\PegadhexApp\\AgregarChofer.cs [Dise\u00F1o]",
               "RelativeToolTip": "AgregarChofer.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:27:05.245Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-06T12:27:05.245Z"
             },
             {
               "$type": "Document",

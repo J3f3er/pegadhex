@@ -47,7 +47,7 @@ namespace PegadhexApp
                     try
                     {
                         cmd.ExecuteNonQuery();
-                        MessageBox.Show($"Usuario registrado exitosamente");
+                        MessageBox.Show($"Usuario registrado exitosamente", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         CargarTabla();
                         txtNombre.Text = string.Empty;
                         txtApellido.Text = string.Empty;
@@ -56,7 +56,7 @@ namespace PegadhexApp
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show($"No se pudo registrar: {ex.Message}");
+                        MessageBox.Show($"No se pudo registrar: {ex.Message}", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
             }
@@ -170,10 +170,10 @@ namespace PegadhexApp
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     // Conexión a la base de datos SQLite
-                    using (SQLiteConnection conn = new SQLiteConnection("Data Source=tu_base_de_datos.sqlite;Version=3;"))
+                    using (SQLiteConnection conn = new SQLiteConnection(connectionString))
                     {
                         conn.Open();
-                        string query = "SELECT * FROM tu_tabla"; // Cambia 'tu_tabla' por el nombre de tu tabla
+                        string query = "SELECT * FROM usuarios"; // Cambia 'tu_tabla' por el nombre de tu tabla
                         SQLiteDataAdapter adapter = new SQLiteDataAdapter(query, conn);
                         DataTable dataTable = new DataTable();
                         adapter.Fill(dataTable);
@@ -189,27 +189,27 @@ namespace PegadhexApp
                         // Agregar los datos al Excel
                         for (int i = 0; i < dataTable.Columns.Count; i++)
                         {
-                            worksheet.Cells[1, i + 1] = dataTable.Columns[i].ColumnName; // Encabezados
+                            worksheet.Cells[2, i + 1] = dataTable.Columns[i].ColumnName; // Encabezados
                         }
 
                         for (int i = 0; i < dataTable.Rows.Count; i++)
                         {
                             for (int j = 0; j < dataTable.Columns.Count; j++)
                             {
-                                worksheet.Cells[i + 2, j + 1] = dataTable.Rows[i][j]; // Datos
+                                worksheet.Cells[i + 3, j + 1] = dataTable.Rows[i][j]; // Datos
                             }
                         }
 
                         // Combinar celdas A1 hasta E1
-                        Excel.Range range = worksheet.get_Range("A1", "E1");
+                        Excel.Range range = worksheet.get_Range("A1", "F1");
                         range.Merge();
-                        range.Value2 = "Título de la Tabla"; // Cambia el texto según sea necesario
+                        range.Value2 = "Usuarios"; // Cambia el texto según sea necesario
                         range.HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
                         range.Font.Bold = true;
                         range.Interior.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightBlue);
 
                         // Aplicar estilos a la fila de encabezados
-                        Excel.Range headerRange = worksheet.get_Range("A1", "E1");
+                        Excel.Range headerRange = worksheet.get_Range("A1", "F1");
                         headerRange.Font.Bold = true;
                         headerRange.Interior.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightGray);
 
