@@ -44,7 +44,7 @@ namespace PegadhexApp
                     try
                     {
                         cmd.ExecuteNonQuery();
-                        MessageBox.Show($"Datos ingresados correctamente. Nombre: {nombre}, Apellido: {apellido}, Cedula: {cedula}, Fecha de Nacimiento: {fecha}, Ingreso: {ingreso}");
+                        MessageBox.Show($"Datos ingresados correctamente. Nombre: {nombre}, Apellido: {apellido}, Cedula: {cedula}, Fecha de Nacimiento: {fecha}, Ingreso: {ingreso}", "¡Exito!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         txtNombre.Text = string.Empty;
                         txtApellido.Text = string.Empty;
                         txtCedula.Text = string.Empty;

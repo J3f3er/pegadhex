@@ -86,12 +86,12 @@ namespace PegadhexApp
                         dgvUsuarios.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
                         dgvUsuarios.AlternatingRowsDefaultCellStyle.BackColor = System.Drawing.Color.White;
                         dgvUsuarios.ColumnHeadersDefaultCellStyle.BackColor = System.Drawing.Color.DarkGray;
-                        dgvUsuarios.ColumnHeadersDefaultCellStyle.ForeColor= System.Drawing.Color.White;
+                        dgvUsuarios.ColumnHeadersDefaultCellStyle.ForeColor = System.Drawing.Color.White;
                         dgvUsuarios.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Times New Roman", 12, System.Drawing.FontStyle.Bold);
 
                         //while (reader.Read())
                         //{
-                            
+
                         //}
                     }
                 }
@@ -113,7 +113,7 @@ namespace PegadhexApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
 
         private void btnExcel_Click(object sender, EventArgs e)
@@ -144,7 +144,7 @@ namespace PegadhexApp
             saveFile.Title = "Guardar Archivo Excel";
             saveFile.FileName = "Usuarios";
 
-            if(saveFile.ShowDialog() == DialogResult.OK)
+            if (saveFile.ShowDialog() == DialogResult.OK)
             {
                 workbook.SaveAs(saveFile.FileName);
                 MessageBox.Show($"Se completo la exportación a Excel Exitosamente.", "¡Exito!", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -155,6 +155,78 @@ namespace PegadhexApp
             System.Runtime.InteropServices.Marshal.ReleaseComObject(worksheet);
             System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
             System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
+        }
+
+        private void btnOtro_Click(object sender, EventArgs e)
+        {
+            // Crear un cuadro de diálogo para guardar el archivo
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            {
+                saveFileDialog.Filter = "Excel Files|*.xlsx";
+                saveFileDialog.Title = "Guardar archivo Excel";
+                saveFileDialog.FileName = "exportado.xlsx"; // Nombre predeterminado
+
+                // Mostrar el cuadro de diálogo y verificar si el usuario seleccionó un archivo
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    // Conexión a la base de datos SQLite
+                    using (SQLiteConnection conn = new SQLiteConnection("Data Source=tu_base_de_datos.sqlite;Version=3;"))
+                    {
+                        conn.Open();
+                        string query = "SELECT * FROM tu_tabla"; // Cambia 'tu_tabla' por el nombre de tu tabla
+                        SQLiteDataAdapter adapter = new SQLiteDataAdapter(query, conn);
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
+
+                        // Crear una nueva instancia de Excel
+                        Excel.Application excelApp = new Excel.Application();
+                        excelApp.Visible = false; // Cambia a true si quieres ver Excel mientras se ejecuta
+
+                        // Crear un nuevo libro de trabajo
+                        Excel.Workbook workbook = excelApp.Workbooks.Add();
+                        Excel.Worksheet worksheet = (Excel.Worksheet)workbook.Sheets[1];
+
+                        // Agregar los datos al Excel
+                        for (int i = 0; i < dataTable.Columns.Count; i++)
+                        {
+                            worksheet.Cells[1, i + 1] = dataTable.Columns[i].ColumnName; // Encabezados
+                        }
+
+                        for (int i = 0; i < dataTable.Rows.Count; i++)
+                        {
+                            for (int j = 0; j < dataTable.Columns.Count; j++)
+                            {
+                                worksheet.Cells[i + 2, j + 1] = dataTable.Rows[i][j]; // Datos
+                            }
+                        }
+
+                        // Combinar celdas A1 hasta E1
+                        Excel.Range range = worksheet.get_Range("A1", "E1");
+                        range.Merge();
+                        range.Value2 = "Título de la Tabla"; // Cambia el texto según sea necesario
+                        range.HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+                        range.Font.Bold = true;
+                        range.Interior.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightBlue);
+
+                        // Aplicar estilos a la fila de encabezados
+                        Excel.Range headerRange = worksheet.get_Range("A1", "E1");
+                        headerRange.Font.Bold = true;
+                        headerRange.Interior.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightGray);
+
+                        // Guardar el archivo Excel en la ubicación seleccionada por el usuario
+                        workbook.SaveAs(saveFileDialog.FileName);
+                        workbook.Close();
+                        excelApp.Quit();
+
+                        // Liberar recursos
+                        System.Runtime.InteropServices.Marshal.ReleaseComObject(worksheet);
+                        System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
+                        System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
+
+                        MessageBox.Show("Datos exportados a Excel exitosamente.");
+                    }
+                }
+            }
         }
     }
 }

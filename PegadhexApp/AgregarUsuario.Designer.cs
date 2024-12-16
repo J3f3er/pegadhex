@@ -43,6 +43,7 @@
             this.btnExcel = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.dgvUsuarios = new System.Windows.Forms.DataGridView();
+            this.btnOtro = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -139,42 +140,50 @@
             // 
             // btnGuardar
             // 
+            this.btnGuardar.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnGuardar.Location = new System.Drawing.Point(409, 9);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(201, 51);
             this.btnGuardar.TabIndex = 10;
             this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnLimpiar
             // 
+            this.btnLimpiar.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLimpiar.Location = new System.Drawing.Point(616, 9);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(201, 51);
             this.btnLimpiar.TabIndex = 11;
             this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.UseVisualStyleBackColor = false;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnExcel
             // 
+            this.btnExcel.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnExcel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExcel.Location = new System.Drawing.Point(409, 66);
             this.btnExcel.Name = "btnExcel";
             this.btnExcel.Size = new System.Drawing.Size(201, 51);
             this.btnExcel.TabIndex = 12;
             this.btnExcel.Text = "Excel";
-            this.btnExcel.UseVisualStyleBackColor = true;
+            this.btnExcel.UseVisualStyleBackColor = false;
             this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Location = new System.Drawing.Point(616, 66);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(201, 51);
             this.button1.TabIndex = 13;
             this.button1.Text = "Cerrar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dgvUsuarios
@@ -190,12 +199,25 @@
             this.dgvUsuarios.Size = new System.Drawing.Size(805, 569);
             this.dgvUsuarios.TabIndex = 14;
             // 
+            // btnOtro
+            // 
+            this.btnOtro.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnOtro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnOtro.Location = new System.Drawing.Point(409, 125);
+            this.btnOtro.Name = "btnOtro";
+            this.btnOtro.Size = new System.Drawing.Size(201, 51);
+            this.btnOtro.TabIndex = 15;
+            this.btnOtro.Text = "Otro";
+            this.btnOtro.UseVisualStyleBackColor = false;
+            this.btnOtro.Click += new System.EventHandler(this.btnOtro_Click);
+            // 
             // AgregarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(829, 820);
+            this.Controls.Add(this.btnOtro);
             this.Controls.Add(this.dgvUsuarios);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnExcel);
@@ -242,5 +264,6 @@
         private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dgvUsuarios;
+        private System.Windows.Forms.Button btnOtro;
     }
 }

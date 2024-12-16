@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.principalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -76,7 +75,6 @@
             this.conciliaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contabilidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pctbPegadhex = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctbPegadhex)).BeginInit();
@@ -120,7 +118,7 @@
             this.registroToolStripMenuItem,
             this.historialToolStripMenuItem1});
             this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
+            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.inventarioToolStripMenuItem.Text = "Inventario";
             // 
             // registroToolStripMenuItem
@@ -141,7 +139,7 @@
             this.agregarToolStripMenuItem,
             this.historialToolStripMenuItem2});
             this.retencionesToolStripMenuItem.Name = "retencionesToolStripMenuItem";
-            this.retencionesToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
+            this.retencionesToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.retencionesToolStripMenuItem.Text = "Retenciones";
             // 
             // agregarToolStripMenuItem
@@ -162,7 +160,7 @@
             this.agregarToolStripMenuItem1,
             this.historialToolStripMenuItem3});
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.clientesToolStripMenuItem.Text = "Clientes";
             // 
             // agregarToolStripMenuItem1
@@ -184,7 +182,7 @@
             this.agregarToolStripMenuItem2,
             this.historialToolStripMenuItem4});
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.proveedoresToolStripMenuItem.Text = "Proveedores";
             // 
             // agregarToolStripMenuItem2
@@ -206,7 +204,7 @@
             this.agregarToolStripMenuItem3,
             this.ventasToolStripMenuItem});
             this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
+            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.comprasToolStripMenuItem.Text = "Compras";
             // 
             // agregarToolStripMenuItem3
@@ -227,7 +225,7 @@
             this.agregarToolStripMenuItem4,
             this.historialToolStripMenuItem5});
             this.ventToolStripMenuItem.Name = "ventToolStripMenuItem";
-            this.ventToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
+            this.ventToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.ventToolStripMenuItem.Text = "Ventas";
             this.ventToolStripMenuItem.Click += new System.EventHandler(this.ventToolStripMenuItem_Click);
             // 
@@ -251,32 +249,32 @@
             this.actualizarToolStripMenuItem1,
             this.eliminarToolStripMenuItem1});
             this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.usuariosToolStripMenuItem.Text = "Usuarios";
             // 
             // registrarToolStripMenuItem
             // 
             this.registrarToolStripMenuItem.Name = "registrarToolStripMenuItem";
-            this.registrarToolStripMenuItem.Size = new System.Drawing.Size(190, 34);
+            this.registrarToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.registrarToolStripMenuItem.Text = "Registrar";
             this.registrarToolStripMenuItem.Click += new System.EventHandler(this.registrarToolStripMenuItem_Click);
             // 
             // buscarToolStripMenuItem1
             // 
             this.buscarToolStripMenuItem1.Name = "buscarToolStripMenuItem1";
-            this.buscarToolStripMenuItem1.Size = new System.Drawing.Size(190, 34);
+            this.buscarToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
             this.buscarToolStripMenuItem1.Text = "Buscar";
             // 
             // actualizarToolStripMenuItem1
             // 
             this.actualizarToolStripMenuItem1.Name = "actualizarToolStripMenuItem1";
-            this.actualizarToolStripMenuItem1.Size = new System.Drawing.Size(190, 34);
+            this.actualizarToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
             this.actualizarToolStripMenuItem1.Text = "Actualizar";
             // 
             // eliminarToolStripMenuItem1
             // 
             this.eliminarToolStripMenuItem1.Name = "eliminarToolStripMenuItem1";
-            this.eliminarToolStripMenuItem1.Size = new System.Drawing.Size(190, 34);
+            this.eliminarToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
             this.eliminarToolStripMenuItem1.Text = "Eliminar";
             // 
             // facturaToolStripMenuItem
@@ -298,40 +296,40 @@
             this.notaDeDespachoToolStripMenuItem,
             this.historialToolStripMenuItem});
             this.facturarToolStripMenuItem.Name = "facturarToolStripMenuItem";
-            this.facturarToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.facturarToolStripMenuItem.Size = new System.Drawing.Size(176, 34);
             this.facturarToolStripMenuItem.Text = "Facturar";
             this.facturarToolStripMenuItem.Click += new System.EventHandler(this.facturarToolStripMenuItem_Click);
             // 
             // facturaToolStripMenuItem1
             // 
             this.facturaToolStripMenuItem1.Name = "facturaToolStripMenuItem1";
-            this.facturaToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
+            this.facturaToolStripMenuItem1.Size = new System.Drawing.Size(262, 34);
             this.facturaToolStripMenuItem1.Text = "Factura";
             this.facturaToolStripMenuItem1.Click += new System.EventHandler(this.facturaToolStripMenuItem1_Click);
             // 
             // notaDeCréditoToolStripMenuItem
             // 
             this.notaDeCréditoToolStripMenuItem.Name = "notaDeCréditoToolStripMenuItem";
-            this.notaDeCréditoToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.notaDeCréditoToolStripMenuItem.Size = new System.Drawing.Size(262, 34);
             this.notaDeCréditoToolStripMenuItem.Text = "Nota de Crédito";
             // 
             // notaDeDebitoToolStripMenuItem
             // 
             this.notaDeDebitoToolStripMenuItem.Name = "notaDeDebitoToolStripMenuItem";
-            this.notaDeDebitoToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.notaDeDebitoToolStripMenuItem.Size = new System.Drawing.Size(262, 34);
             this.notaDeDebitoToolStripMenuItem.Text = "Nota de Debito";
             this.notaDeDebitoToolStripMenuItem.Click += new System.EventHandler(this.notaDeDebitoToolStripMenuItem_Click);
             // 
             // notaDeDespachoToolStripMenuItem
             // 
             this.notaDeDespachoToolStripMenuItem.Name = "notaDeDespachoToolStripMenuItem";
-            this.notaDeDespachoToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.notaDeDespachoToolStripMenuItem.Size = new System.Drawing.Size(262, 34);
             this.notaDeDespachoToolStripMenuItem.Text = "Nota de Despacho";
             // 
             // historialToolStripMenuItem
             // 
             this.historialToolStripMenuItem.Name = "historialToolStripMenuItem";
-            this.historialToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.historialToolStripMenuItem.Size = new System.Drawing.Size(262, 34);
             this.historialToolStripMenuItem.Text = "Historial";
             // 
             // anularToolStripMenuItem
@@ -339,7 +337,7 @@
             this.anularToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.facturaToolStripMenuItem2});
             this.anularToolStripMenuItem.Name = "anularToolStripMenuItem";
-            this.anularToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.anularToolStripMenuItem.Size = new System.Drawing.Size(176, 34);
             this.anularToolStripMenuItem.Text = "Anular";
             // 
             // facturaToolStripMenuItem2
@@ -437,12 +435,6 @@
             this.cerrarToolStripMenuItem.Text = "Cerrar";
             this.cerrarToolStripMenuItem.Click += new System.EventHandler(this.cerrarToolStripMenuItem_Click);
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // pctbPegadhex
             // 
             this.pctbPegadhex.Image = global::PegadhexApp.Properties.Resources.LOGO_ACTUAL_removebg_preview;
@@ -500,7 +492,6 @@
         private System.Windows.Forms.ToolStripMenuItem registroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem historialToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem cerrarToolStripMenuItem;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem retencionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem historialToolStripMenuItem2;

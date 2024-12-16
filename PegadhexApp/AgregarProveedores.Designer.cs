@@ -139,9 +139,10 @@
             // btnGuardar
             // 
             this.btnGuardar.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Location = new System.Drawing.Point(359, 11);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(120, 36);
+            this.btnGuardar.Size = new System.Drawing.Size(120, 41);
             this.btnGuardar.TabIndex = 10;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
@@ -150,9 +151,10 @@
             // btnLimpiar
             // 
             this.btnLimpiar.BackColor = System.Drawing.SystemColors.Info;
-            this.btnLimpiar.Location = new System.Drawing.Point(359, 53);
+            this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpiar.Location = new System.Drawing.Point(359, 58);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(120, 36);
+            this.btnLimpiar.Size = new System.Drawing.Size(120, 41);
             this.btnLimpiar.TabIndex = 11;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
@@ -161,9 +163,10 @@
             // btnExcel
             // 
             this.btnExcel.BackColor = System.Drawing.Color.LawnGreen;
-            this.btnExcel.Location = new System.Drawing.Point(359, 95);
+            this.btnExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExcel.Location = new System.Drawing.Point(359, 105);
             this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(120, 36);
+            this.btnExcel.Size = new System.Drawing.Size(120, 41);
             this.btnExcel.TabIndex = 12;
             this.btnExcel.Text = "Excel";
             this.btnExcel.UseVisualStyleBackColor = false;
@@ -172,9 +175,10 @@
             // btnCerrar
             // 
             this.btnCerrar.BackColor = System.Drawing.Color.Red;
-            this.btnCerrar.Location = new System.Drawing.Point(359, 137);
+            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrar.Location = new System.Drawing.Point(359, 152);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(120, 36);
+            this.btnCerrar.Size = new System.Drawing.Size(120, 41);
             this.btnCerrar.TabIndex = 13;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = false;

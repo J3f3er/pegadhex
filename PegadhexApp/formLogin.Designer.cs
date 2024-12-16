@@ -82,6 +82,7 @@
             // sesion
             // 
             this.sesion.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.sesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sesion.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sesion.Location = new System.Drawing.Point(546, 230);
             this.sesion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
