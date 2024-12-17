@@ -53,7 +53,7 @@
             this.lblNombre.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblNombre.Location = new System.Drawing.Point(12, 9);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(86, 22);
+            this.lblNombre.Size = new System.Drawing.Size(125, 32);
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "Nombre: ";
             // 
@@ -61,7 +61,7 @@
             // 
             this.txtNombre.Location = new System.Drawing.Point(186, 9);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(217, 29);
+            this.txtNombre.Size = new System.Drawing.Size(217, 40);
             this.txtNombre.TabIndex = 1;
             // 
             // lblApellido
@@ -70,7 +70,7 @@
             this.lblApellido.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblApellido.Location = new System.Drawing.Point(12, 52);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(87, 22);
+            this.lblApellido.Size = new System.Drawing.Size(132, 32);
             this.lblApellido.TabIndex = 2;
             this.lblApellido.Text = "Apellido: ";
             // 
@@ -78,7 +78,7 @@
             // 
             this.txtApellido.Location = new System.Drawing.Point(186, 55);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(217, 29);
+            this.txtApellido.Size = new System.Drawing.Size(217, 40);
             this.txtApellido.TabIndex = 3;
             // 
             // lblCorreo
@@ -87,7 +87,7 @@
             this.lblCorreo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblCorreo.Location = new System.Drawing.Point(12, 98);
             this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(79, 22);
+            this.lblCorreo.Size = new System.Drawing.Size(113, 32);
             this.lblCorreo.TabIndex = 4;
             this.lblCorreo.Text = "Correo: ";
             // 
@@ -95,7 +95,7 @@
             // 
             this.txtCorreo.Location = new System.Drawing.Point(186, 101);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(217, 29);
+            this.txtCorreo.Size = new System.Drawing.Size(217, 40);
             this.txtCorreo.TabIndex = 5;
             // 
             // lblContrasena
@@ -104,7 +104,7 @@
             this.lblContrasena.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblContrasena.Location = new System.Drawing.Point(12, 144);
             this.lblContrasena.Name = "lblContrasena";
-            this.lblContrasena.Size = new System.Drawing.Size(115, 22);
+            this.lblContrasena.Size = new System.Drawing.Size(168, 32);
             this.lblContrasena.TabIndex = 6;
             this.lblContrasena.Text = "Contraseña: ";
             // 
@@ -112,7 +112,7 @@
             // 
             this.txtContrasena.Location = new System.Drawing.Point(186, 147);
             this.txtContrasena.Name = "txtContrasena";
-            this.txtContrasena.Size = new System.Drawing.Size(217, 29);
+            this.txtContrasena.Size = new System.Drawing.Size(217, 40);
             this.txtContrasena.TabIndex = 7;
             // 
             // lblRol
@@ -121,7 +121,7 @@
             this.lblRol.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblRol.Location = new System.Drawing.Point(12, 190);
             this.lblRol.Name = "lblRol";
-            this.lblRol.Size = new System.Drawing.Size(66, 22);
+            this.lblRol.Size = new System.Drawing.Size(95, 32);
             this.lblRol.TabIndex = 8;
             this.lblRol.Text = "Roles: ";
             // 
@@ -135,7 +135,7 @@
             "Facturario"});
             this.cmbRol.Location = new System.Drawing.Point(186, 193);
             this.cmbRol.Name = "cmbRol";
-            this.cmbRol.Size = new System.Drawing.Size(217, 30);
+            this.cmbRol.Size = new System.Drawing.Size(217, 40);
             this.cmbRol.TabIndex = 9;
             // 
             // btnGuardar
@@ -213,7 +213,7 @@
             // 
             // AgregarUsuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(829, 701);

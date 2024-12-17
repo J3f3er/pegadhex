@@ -80,7 +80,8 @@ namespace PegadhexApp
                         dgvUsuarios.Columns[1].HeaderText = "Nombres";
                         dgvUsuarios.Columns[2].HeaderText = "Apellidos";
                         dgvUsuarios.Columns[3].HeaderText = "Correos";
-                        dgvUsuarios.Columns[4].HeaderText = "Roles";
+                        dgvUsuarios.Columns[4].HeaderText = "Contraseña";
+                        dgvUsuarios.Columns[5].HeaderText = "Roles";
 
                         dgvUsuarios.DefaultCellStyle.BackColor = System.Drawing.Color.LightGray;
                         dgvUsuarios.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;

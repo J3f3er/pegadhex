@@ -50,14 +50,14 @@ namespace PegadhexApp
 
             if (ValidarUsuario(usuario, contrasena))
             {
-                MessageBox.Show($"Inicio de sesión exitoso {usuario}, {contrasena} ");
+                MessageBox.Show($"Inicio de sesión exitoso {usuario}, {contrasena} ", "¡BIENVENID@!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 MainForm mainForm = new MainForm();
                 mainForm.Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Usuario o Contraseña incorectos");
+                MessageBox.Show("Usuario o Contraseña incorectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
